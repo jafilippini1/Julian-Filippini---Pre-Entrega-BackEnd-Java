@@ -38,13 +38,18 @@ Representa el género de una obra (comedia, drama, etc.). Implementa `FichaTecni
 
 ### Clase genérica `Crud<T>`
 Permite realizar operaciones CRUD sobre cualquier clase que implemente `FichaTecnica`. Las operaciones disponibles son:
-- `C`: Crear
-- `L`: Listar
-- `R`: Leer
-- `U`: Actualizar stock
-- `D`: Indisponibilizar
-- `A`: Alquilar
-- `V`: Devolver
+
+    CREATE
+    - `C`: Crear
+    READ 
+    - `R`: Leer
+    - `L`: Listar
+    UPDATE 
+    - `U`: Actualizar stock
+    - `A`: Alquilar
+    - `X`: Devolver
+    DELETE
+    - `D`: Indisponibilizar
 
 ### Clase `Funciones`
 Contiene métodos estáticos que implementan la lógica de interacción por consola. Gestiona los menús, la carga de datos, y las operaciones sobre las listas de obras y géneros.
