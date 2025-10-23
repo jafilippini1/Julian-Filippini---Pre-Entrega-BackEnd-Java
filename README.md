@@ -67,3 +67,32 @@ Contiene el método `main()` que inicia el programa, crea las listas de datos y 
 - **Genéricos**: `Crud<T>` permite reutilizar lógica para distintos tipos de datos.
 
 ---
+
+Clases:
+
+               ┌──────────────────────────┐                     ┌──────────────────────────┐
+               │          OBRA            │                     │         GENERO           │
+               ├──────────────────────────┤                     ├──────────────────────────┤
+               │ - id: int  // static     │                     │ - id: int                │
+               │ - titulo: String         │                     │ - nombre: String         │
+               │ - genero: Genero (Class) │────────────────────▶│ - descripcion: String    │
+               │ - director: String       │                     ├──────────────────────────┤
+               │ - duracion: int          │                     │ + mostrarFicha(): void   │
+               │ - stock: int             │                     └──────────────────────────┘
+               │ - disponible: boolean    │
+               ├──────────────────────────┤
+               │ + mostrarFicha(): void   │
+               │ + alquilar(): void       │
+               │ + devolver(): void       │
+               └──────────┬───────────────┘
+                          │
+        ┌─────────────────┴───────────────────┐
+        │                                     │
+┌──────────────────────┐             ┌────────────────────────┐
+│      PELICULA        │             │         SERIE          │
+├──────────────────────┤             ├────────────────────────┤
+│ - formato: String    │             │ - temporadas: int      │
+│ - anioLanzamiento:int│             │ - capitulos: int       │
+├──────────────────────┤             ├────────────────────────┤
+│ + mostrarFicha():void│             │ + mostrarFicha():void  │
+└──────────────────────┘             └────────────────────────┘
