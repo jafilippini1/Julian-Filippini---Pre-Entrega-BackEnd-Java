@@ -1,7 +1,9 @@
 # Julian-Filippini--Pre Entrega BackEnd-Java
 Talento Tech: BackEnd Java (Julián Filippini)
 
-NOTA: Gise, mil disculpas, pero en mi navegador tengo una extensión llamada "Forcepoint browser extension" que no me permite subir carpetas, espor ello que tuve que subir el proyecto como .zip
+
+#### NOTA: Gise, mil disculpas, pero en mi navegador tengo una extensión llamada "Forcepoint browser extension" que no me permite subir carpetas, espor ello que tuve que subir el proyecto como .zip
+
 
 **Informe de Proyecto: Sistema de Gestión de Videoclub**
 
