@@ -1,10 +1,6 @@
 # Julian-Filippini--Pre Entrega BackEnd-Java
 Talento Tech: BackEnd Java (Julián Filippini)
 
-
-#### NOTA: Gise, mil disculpas, pero en mi navegador tengo una extensión llamada "Forcepoint browser extension" que no me permite subir carpetas, espor ello que tuve que subir el proyecto como .zip
-
-
 **Informe de Proyecto: Sistema de Gestión de Videoclub**
 
 Este proyecto implementa un sistema "muy básico" de gestión de stock de "obras" para un videoclub, permitiendo realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar), además de alquiler y devolución de obras audiovisuales. Está desarrollado en Java aplicando principios de programación orientada a objetos.
