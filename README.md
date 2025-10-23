@@ -66,5 +66,5 @@ Contiene el método `main()` que inicia el programa, crea las listas de datos y 
 - **Encapsulamiento**: Atributos privados con getters/setters.
 - **Genéricos**: `Crud<T>` permite reutilizar lógica para distintos tipos de datos.
 
-  ### Diagrama de Clases -> 
+  ### Diagrama de Clases -> https://github.com/jafilippini1/Julian-Filippini---Pre-Entrega-BackEnd-Java/blob/main/DiagramaDeClases.PNG
   
